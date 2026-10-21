@@ -1,0 +1,134 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Category'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Category'
+annotate view ZC_EXPENSE912 with
+{
+
+  @UI.facet: [ {
+      label: 'General Information',
+      id: 'GeneralInfo',
+      purpose: #STANDARD,
+      position: 10 ,
+      type: #IDENTIFICATION_REFERENCE
+    } ]
+
+  @UI.hidden: true
+  UUID;
+
+  @UI.hidden: true
+  ParentUUID;
+
+
+  @EndUserText.label: 'ExpenseDescription'
+  @UI.identification: [ {
+    position: 30 ,
+    label: 'ExpenseDescription'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 ,
+    label: 'ExpenseDescription'
+  } ]
+  @UI.multiLineText: true
+  ExpenseDescription;
+
+  @EndUserText.label: 'Category'
+  @UI.identification: [ {
+    position: 40 ,
+    label: 'Category'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 ,
+    label: 'Category'
+  } ]
+  @Consumption: {
+  valueHelpDefinition: [ {
+  entity.element: 'Category',
+  entity.name: 'ZTM364_I_Expense_Category'
+  } ]
+  }
+  Category;
+
+  @EndUserText.label: 'TransactionType'
+  @UI.identification: [ {
+    position: 50 ,
+    label: 'TransactionType'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 ,
+    label: 'TransactionType'
+  } ]
+  @Consumption: {
+  valueHelpDefinition: [ {
+  entity.element: 'Type',
+  entity.name: 'ZTM364_I_Transaction_Type'
+
+  } ]
+  }
+  TransactionType;
+
+  @UI.identification: [ {
+    position: 60
+  } ]
+  @UI.lineItem: [ {
+    position: 60
+  } ]
+  ReceiptDate;
+
+  @EndUserText.label: 'Amount'
+  @UI.identification: [ {
+    position: 70 ,
+    label: 'Amount'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 ,
+    label: 'Amount'
+  } ]
+  Amount;
+
+  @EndUserText.label: 'UploadedReceiptMimetype'
+  @UI.identification: [ {
+    position: 80 ,
+    label: 'UploadedReceiptMimetype'
+  } ]
+  @UI.lineItem: [ {
+    position: 80 ,
+    label: 'UploadedReceiptMimetype'
+  } ]
+  @UI.selectionField: [ {
+    position: 80
+  } ]
+  UploadedReceiptMimetype;
+
+  @EndUserText.label: 'UploadedReceiptFilename'
+  @UI.identification: [ {
+    position: 90 ,
+    label: 'UploadedReceiptFilename'
+  } ]
+  @UI.lineItem: [ {
+    position: 90 ,
+    label: 'UploadedReceiptFilename'
+  } ]
+  @UI.selectionField: [ {
+    position: 90
+  } ]
+  UploadedReceiptFilename;
+
+  @EndUserText.label: 'UploadedReceipt'
+  @UI.identification: [ {
+    position: 100 ,
+    label: 'UploadedReceipt'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 ,
+    label: 'UploadedReceipt'
+  } ]
+  @UI.selectionField: [ {
+    position: 100
+  } ]
+  UploadedReceipt;
+
+  @UI.hidden: true
+  _BaseEntity;
+}

@@ -1,0 +1,110 @@
+managed implementation in class ZBP_R_TRIP912 unique;
+strict ( 2 );
+with draft;
+extensible;
+define behavior for ZR_TRIP912 alias Trip
+persistent table ztrip912
+extensible
+draft table ztrip_d912
+etag master LocalLastChangedAt
+lock master total etag LastChangedAt
+authorization master ( global )
+{
+  field ( readonly )
+  UUID,
+  LocalCreatedBy,
+  LocalCreatedAt,
+  LocalLastChangedBy,
+  LocalLastChangedAt,
+  LastChangedAt;
+
+  field ( numbering : managed )
+  UUID;
+
+  field ( mandatory : create, readonly : update ) TripID;
+  field ( mandatory : create ) IslmScenario;
+
+  field ( readonly ) LlmResponse;
+  determination setTripCategory on save { field Title; field Details; }
+
+  validation checkIslmScenario on save { field IslmScenario; }
+
+  action checkCompliance result [1] $self;
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare
+  {
+    validation checkIslmScenario;
+  }
+
+  mapping for ztrip912 corresponding extensible
+    {
+      UUID               = uuid;
+      TripID             = trip_id;
+      Title              = title;
+      Details            = details;
+      LlmResponse        = llm_response;
+      City               = city;
+      Country            = country;
+      StartDate          = start_date;
+      EndDate            = end_date;
+      Type               = type;
+      Status             = status;
+      IslmScenario       = islm_scenario;
+      LocalCreatedBy     = local_created_by;
+      LocalCreatedAt     = local_created_at;
+      LocalLastChangedBy = local_last_changed_by;
+      LocalLastChangedAt = local_last_changed_at;
+      LastChangedAt      = last_changed_at;
+    }
+
+  association _Expense { create; with draft; }
+
+}
+
+define behavior for ZR_EXPENSE912 alias Expense
+persistent table zexpense912
+extensible
+draft table zexpense_d912
+etag dependent by _Trip
+lock dependent by _Trip
+authorization dependent by _Trip
+{
+  field ( readonly )
+  UUID,
+  ParentUUID;
+
+  field ( numbering : managed )
+  UUID;
+
+  determination set_extracted_data on modify { field UploadedReceipt; }
+  side effects { field UploadedReceipt affects $self; }
+
+  update;
+  delete;
+
+  mapping for zexpense912 corresponding extensible
+    {
+      UUID                    = uuid;
+      ParentUUID              = parent_uuid;
+      ExpenseDescription      = expense_description;
+      Category                = category;
+      TransactionType         = transaction_type;
+      ReceiptDate             = receipt_date;
+      Amount                  = amount;
+      Currency                = currency;
+      UploadedReceiptMimetype = uploaded_receipt_mimetype;
+      UploadedReceiptFilename = uploaded_receipt_filename;
+      UploadedReceipt         = uploaded_receipt;
+    }
+
+  association _Trip { with draft; }
+
+}

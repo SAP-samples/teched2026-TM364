@@ -1,0 +1,10 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZTRIP912"
+    ],
+    "ASSOCIATED": [
+      "ZR_EXPENSE912"
+    ]
+  }
+}

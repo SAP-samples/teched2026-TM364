@@ -1,0 +1,199 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'TripID'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'TripID'
+annotate view ZC_TRIP912 with
+{
+  @UI.hidden: true
+  UUID;
+
+  @EndUserText.label: 'TripID'
+  @UI.facet: [ {
+    label: 'General Information',
+    id: 'GeneralInfo',
+    purpose: #STANDARD,
+    position: 20 ,
+    type: #IDENTIFICATION_REFERENCE
+  },
+  {
+    label: 'Expense Items',
+    id: 'ExpenseItems',
+    purpose: #STANDARD,
+    position: 21 ,
+    type: #LINEITEM_REFERENCE,
+    targetElement: '_Expense'
+  } ]
+  @UI.identification: [ {
+    position: 20 ,
+    label: 'TripID'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 ,
+    label: 'TripID'
+  } ]
+  @UI.selectionField: [ {
+    position: 20
+  } ]
+  TripID;
+
+   @EndUserText.label: 'Title'
+   @UI.identification: [ {
+     position: 30 ,
+     label: 'Title'
+     } 
+     ,{ type: #FOR_ACTION, dataAction: 'checkCompliance', label: 'Check Compliance' }
+     ]
+   @UI.lineItem: [ {
+     position: 30 ,
+     label: 'Title'
+    } ]
+  Title;
+
+  @EndUserText.label: 'Details'
+  @UI.identification: [ {
+    position: 40 ,
+    label: 'Details'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 ,
+    label: 'Details'
+  } ]
+  @UI.multiLineText: true
+  Details;
+
+  @EndUserText.label: 'LlmResponse'
+  @UI.identification: [ {
+    position: 50 ,
+    label: 'LlmResponse'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 ,
+    label: 'LlmResponse'
+  } ]
+  @UI.multiLineText: true
+  LlmResponse;
+
+  @EndUserText.label: 'City'
+  @UI.identification: [ {
+    position: 60 ,
+    label: 'City'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 ,
+    label: 'City'
+  } ]
+  @UI.selectionField: [ {
+    position: 60
+  } ]
+  City;
+
+  @UI.identification: [ {
+    position: 70
+  } ]
+  @UI.lineItem: [ {
+    position: 70
+  } ]
+  @UI.selectionField: [ {
+    position: 70
+  } ]
+  @Consumption.valueHelpDefinition: [ {
+  entity: {
+    name: 'I_CountryVH',
+    element: 'Country'
+  }
+  } ]
+  Country;
+
+  @UI.identification: [ {
+    position: 80,
+    label: 'StartDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 80,
+    label: 'StartDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 80
+  } ]
+  StartDate;
+
+  @UI.identification: [ {
+    position: 90,
+    label: 'EndDate'
+  } ]
+  @UI.lineItem: [ {
+    position: 90,
+    label: 'EndDate'
+  } ]
+  @UI.selectionField: [ {
+    position: 90
+  } ]
+  EndDate;
+
+  @EndUserText.label: 'Type'
+  @UI.identification: [ {
+    position: 100 ,
+    label: 'Type'
+  } ]
+  @UI.lineItem: [ {
+    position: 100 ,
+    label: 'Type'
+  } ]
+  @UI.selectionField: [ {
+    position: 100
+  } ]
+  Type;
+
+  @EndUserText.label: 'Status'
+  @UI.identification: [ {
+    position: 110 ,
+    label: 'Status'
+  } ]
+  @UI.lineItem: [ {
+    position: 110 ,
+    label: 'Status'
+  } ]
+  @UI.selectionField: [ {
+    position: 110
+  } ]
+  Status;
+
+  @EndUserText.label: 'IslmScenario'
+  @UI.identification: [ {
+    position: 120 ,
+    label: 'IslmScenario'
+  } ]
+  @UI.lineItem: [ {
+    position: 120 ,
+    label: 'IslmScenario'
+  } ]
+  @UI.selectionField: [ {
+    position: 120
+  } ]
+  @Consumption: {
+  valueHelpDefinition: [ {
+  entity.element: 'name',
+  entity.name: 'ZTM364_I_5_ISLM_SCENARIOS_VH'
+      } ]
+      }
+  IslmScenario;
+
+  @UI.hidden: true
+  LocalCreatedBy;
+
+  @UI.hidden: true
+  LocalCreatedAt;
+
+  @UI.hidden: true
+  LocalLastChangedBy;
+
+  @UI.hidden: true
+  LocalLastChangedAt;
+
+  @UI.hidden: true
+  LastChangedAt;
+
+  @UI.hidden: true
+  _BaseEntity;
+}

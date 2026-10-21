@@ -1,0 +1,38 @@
+{
+    "modules": {
+        "prompt_templating": {
+            "prompt": {
+                "template": [
+                    {
+                        "role": "user",
+                        "content": "."
+                    }
+                ],
+                "defaults": {}
+            },
+            "model": {
+                "name": "gpt-5",
+                "params": {
+                    "max_completion_tokens": 24576
+                },
+                "version": "2025-08-07"
+            }
+        },
+        "translation": {
+            "input": {
+                "type": "sap_document_translation",
+                "config": {
+                    "source_language": "",
+                    "target_language": "en-US"
+                }
+            },
+            "output": {
+                "type": "sap_document_translation",
+                "config": {
+                    "source_language": "",
+                    "target_language": "en-US"
+                }
+            }
+        }
+    }
+}

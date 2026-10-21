@@ -1,0 +1,15 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZR_EXPENSE912"
+    ],
+    "ASSOCIATED": [
+      "ZC_TRIP912",
+      "ZR_EXPENSE912",
+      "ZR_TRIP912"
+    ],
+    "BASE": [
+      "ZR_EXPENSE912"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+    "modules": {
+        "prompt_templating": {
+            "prompt": {
+                "template": [
+                    {
+                        "role": "user",
+                        "content": "."
+                    }
+                ],
+                "defaults": {}
+            },
+            "model": {
+                "name": "gpt-5",
+                "params": {
+                    "max_completion_tokens": 24576
+                },
+                "version": "2025-08-07"
+            }
+        },
+        "filtering": {
+            "input": {
+                "filters": [
+                    {
+                        "type": "azure_content_safety",
+                        "config": {}
+                    }
+                ]
+            },
+            "output": {
+                "filters": [
+                    {
+                        "type": "azure_content_safety",
+                        "config": {}
+                    }
+                ]
+            }
+        },
+        "masking": {
+            "masking_providers": [
+                {
+                    "type": "sap_data_privacy_integration",
+                    "mask_file_input_method": "anonymization",
+                    "method": "anonymization",
+                    "entities": [
+                        {
+                            "type": "profile-credit-card-number"
+                        },
+                        {
+                            "type": "profile-driverlicense"
+                        },
+                        {
+                            "type": "profile-email"
+                        },
+                        {
+                            "type": "profile-sensitive-data"
+                        },
+                        {
+                            "type": "profile-ethnicity"
+                        },
+                        {
+                            "type": "profile-gender"
+                        },
+                        {
+                            "type": "profile-pronouns-gender"
+                        },
+                        {
+                            "type": "profile-iban"
+                        },                       
+                        {
+                            "type": "profile-nationalid"
+                        },
+                        {
+                            "type": "profile-nationality"
+                        },
+                        {
+                            "type": "profile-org"
+                        },
+                        {
+                            "type": "profile-passport"
+                        },
+                        {
+                            "type": "profile-person"
+                        },
+                        {
+                            "type": "profile-phone"
+                        },
+                        {
+                            "type": "profile-political-group"
+                        },
+                        {
+                            "type": "profile-sapids-public"
+                        },
+                        {
+                            "type": "profile-religious-group"
+                        },
+                        {
+                            "type": "profile-sapids-internal"
+                        },
+                        {
+                            "type": "profile-ssn"
+                        },
+                        {
+                            "type": "profile-sexual-orientation"
+                        },
+                        {
+                            "type": "profile-trade-union"
+                        },
+                        {
+                            "type": "profile-address"
+                        },
+                        {
+                            "type": "profile-url"
+                        },
+                        {
+                            "type": "profile-university"
+                        },
+                        {
+                            "type": "profile-username-password"
+                        }
+                    ],
+                    "mask_grounding_input": {
+                        "enabled": true
+                    },
+                    "allowlist": []
+                }
+            ]
+        }
+    }
+}

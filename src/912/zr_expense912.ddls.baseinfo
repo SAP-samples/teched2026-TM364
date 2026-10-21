@@ -1,0 +1,10 @@
+{
+  "BASEINFO": {
+    "FROM": [
+      "ZEXPENSE912"
+    ],
+    "ASSOCIATED": [
+      "ZR_TRIP912"
+    ]
+  }
+}

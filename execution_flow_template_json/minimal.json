@@ -1,0 +1,40 @@
+{
+    "modules": {
+        "prompt_templating": {
+            "prompt": {
+                "template": [
+                    {
+                        "role": "user",
+                        "content": "."
+                    }
+                ],
+                "defaults": {}
+            },
+            "model": {
+                "name": "gpt-5",
+                "params": {
+                    "max_completion_tokens": 24576
+                },
+                "version": "2025-08-07"
+            }
+        },
+        "filtering": {
+            "input": {
+                "filters": [
+                    {
+                        "type": "azure_content_safety",
+                        "config": {}
+                    }
+                ]
+            },
+            "output": {
+                "filters": [
+                    {
+                        "type": "azure_content_safety",
+                        "config": {}
+                    }
+                ]
+            }
+        }
+    }
+}

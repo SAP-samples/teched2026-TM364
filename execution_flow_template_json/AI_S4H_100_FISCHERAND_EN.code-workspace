@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "AI_S4H_100_FISCHERAND_EN",
+			"uri": "abap:/repotree-v1/AI_S4H_100_FISCHERAND_EN"
+		},
+		{
+			"name": "TEST_TM364_RAP_SOL [AI_S4H_100_FISCHERAND_EN]",
+			"uri": "abap:/repotree-v1/AI_S4H_100_FISCHERAND_EN/System Library/TEST_TM364_RAP_SOL"
+		}
+	]
+}

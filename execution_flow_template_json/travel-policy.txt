@@ -1,0 +1,130 @@
+# Corporate Travel Policy — Europe & USA
+
+**Version:** 1.0 | **Effective Date:** January 1, 2025
+**Owner:** Finance & Controlling
+
+---
+
+## 1. General Rules
+
+- All business travel must have a valid business purpose (customer visit, internal event, conference, or training).
+- Trips must be approved by the employee's line manager **before** booking.
+- All expenses must be submitted within **14 days** after the trip ends.
+- Receipts are mandatory for any single expense above **€/$ 25**.
+
+---
+
+## 2. Flights
+
+### Europe
+| Flight Duration | Permitted Class |
+|----------------|-----------------|
+| Up to 3 hours  | Economy only    |
+| 3–6 hours      | Economy only    |
+| Over 6 hours   | Business class permitted |
+
+### USA
+| Flight Duration | Permitted Class |
+|----------------|-----------------|
+| Up to 5 hours  | Economy only    |
+| Over 5 hours   | Business class permitted |
+
+> Upgrades using personal frequent flyer miles are permitted and do not require approval.
+
+---
+
+## 3. Hotels
+
+### Europe
+| City Category     | Maximum Rate per Night (incl. taxes) |
+|-------------------|--------------------------------------|
+| Standard cities   | € 180                                |
+| High-cost cities (Paris, London, Zurich, Amsterdam) | € 250 |
+| All other cities  | € 160                                |
+
+### USA
+| City Category     | Maximum Rate per Night (incl. taxes) |
+|-------------------|--------------------------------------|
+| Standard cities   | $ 200                                |
+| High-cost cities (New York, San Francisco, Boston) | $ 300 |
+| All other cities  | $ 180                                |
+
+> Hotels must be booked via the corporate booking tool where possible.
+
+---
+
+## 4. Meals & Dining
+
+### Daily Meal Allowance (Per Diem)
+
+| Region          | Breakfast | Lunch | Dinner | Full Day |
+|-----------------|-----------|-------|--------|----------|
+| Europe          | € 15      | € 25  | € 40   | € 80     |
+| USA             | $ 20      | $ 30  | $ 50   | $ 100    |
+
+### Customer Entertainment (Business Meals)
+- **Customer visits:** Up to € 80 / $ 100 per person (including employee).
+- **Internal team meals:** Up to € 40 / $ 50 per person.
+- Alcohol expenses are reimbursable up to **€/$ 20 per person** and only for customer entertainment.
+- Receipts must include the names and company affiliations of all attendees.
+
+---
+
+## 5. Ground Transportation
+
+### Taxi & Ride-Sharing
+- Permitted for airport transfers and when public transport is not reasonably available.
+- Maximum: € 60 / $ 80 per single ride within city limits.
+- Airport transfers above this limit require a receipt and brief justification.
+
+### Rental Cars
+- Economy or compact class only.
+- SUV or premium class requires manager approval.
+- GPS add-ons are reimbursable. Additional insurance is reimbursable only outside the home country.
+
+### Public Transport
+- Fully reimbursable with receipt.
+- Rail travel in Europe: Standard/2nd class for journeys up to 4 hours; 1st class permitted for journeys over 4 hours.
+
+---
+
+## 6. Trip Categories & Approval Rules
+
+| Category           | Pre-approval Required | Expense Limit (per trip) |
+|--------------------|-----------------------|--------------------------|
+| Customer Visit     | Manager               | No cap                   |
+| Internal Event     | Manager               | € / $ 500 per day        |
+| Conference / TechEd| Manager + HR          | No cap (with invite)     |
+| Training           | Manager + HR          | No cap (with enrollment) |
+| Partner Event      | Manager               | No cap                   |
+
+---
+
+## 7. Out-of-Policy Expenses
+
+Expenses exceeding the limits defined in this policy are not automatically reimbursed.
+The employee must submit an **exception request** including:
+
+1. The expense amount and category
+2. Justification for exceeding the limit
+3. Manager approval (email confirmation acceptable)
+
+Exception requests are reviewed by Finance within **5 business days**.
+
+---
+
+## 8. Non-Reimbursable Expenses
+
+The following expenses are **not** reimbursed under any circumstances:
+
+- Personal leisure activities (tours, cinema, sporting events)
+- Minibar charges
+- In-flight Wi-Fi (unless required for urgent business — requires justification)
+- Fines, penalties, or traffic violations
+- Clothing or personal items
+- Spouse / partner travel costs
+- Expenses without receipt (above € / $ 25)
+
+---
+
+*For questions, contact: finance-travel@company.com*

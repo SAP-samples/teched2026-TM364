@@ -1,0 +1,12 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TRIP912'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TRIP912'
+  }
+}
+define service ZUI_TRIP_O4912 provider contracts odata_v4_ui {
+  expose ZC_TRIP912 as Trip;
+  expose ZC_EXPENSE912 as Expense;
+}

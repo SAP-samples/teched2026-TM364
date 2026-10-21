@@ -1,0 +1,33 @@
+From: Noah Hayes <noah.hayes@example-enterprise.com>
+To: Leadership Team <leadership@example-enterprise.com>
+CC: project.office@example-enterprise.com
+Sent: 06 May 2026 10:29
+Subject: Boston Planning Session
+
+Hello Leadership,
+
+This email confirms my travel to Boston from 12 May 2026 until 14 May 2026.
+
+Attendees:
+- Noah Hayes
+- Leadership Team
+- Additional project stakeholders
+
+Purpose:
+Business meetings related to customer requirements, planning activities, project governance, architecture reviews, and next-step alignment.
+
+Agenda:
+- Project status review
+- Requirements discussion
+- Timeline and milestone planning
+- Risks and dependencies
+- Action items
+
+Please let me know if there are additional topics to discuss.
+
+Kind regards,
+
+Noah Hayes
+Example Enterprise GmbH
+noah.hayes@example-enterprise.com
++49 6227 555 119

@@ -1,0 +1,33 @@
+projection implementation in class ZBP_C_TRIP912 unique;
+strict ( 2 );
+extensible;
+use draft;
+use side effects;
+define behavior for ZC_TRIP912 alias Trip
+extensible
+use etag
+{
+  use create;
+  use update;
+  use delete;
+use action checkCompliance;
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+  use association _Expense { create; with draft; }
+
+}
+
+define behavior for ZC_EXPENSE912 alias Expense
+extensible
+use etag
+{
+  use update;
+  use delete;
+
+  use association _Trip { with draft; }
+
+}

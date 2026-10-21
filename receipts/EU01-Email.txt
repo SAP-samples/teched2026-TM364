@@ -1,0 +1,33 @@
+From: Emma Carter <emma.carter@example-enterprise.com>
+To: Lucas Meyer <lucas.meyer@contoso-industries.eu>
+CC: project.office@example-enterprise.com
+Sent: 06 May 2026 10:10
+Subject: Berlin Customer Workshop
+
+Hello Lucas,
+
+This email confirms my travel to Berlin from 12 May 2026 until 14 May 2026.
+
+Attendees:
+- Emma Carter
+- Lucas Meyer
+- Additional project stakeholders
+
+Purpose:
+Business meetings related to customer requirements, planning activities, project governance, architecture reviews, and next-step alignment.
+
+Agenda:
+- Project status review
+- Requirements discussion
+- Timeline and milestone planning
+- Risks and dependencies
+- Action items
+
+Please let me know if there are additional topics to discuss.
+
+Kind regards,
+
+Emma Carter
+Example Enterprise GmbH
+emma.carter@example-enterprise.com
++49 6227 555 100
