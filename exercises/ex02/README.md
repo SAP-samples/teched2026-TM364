@@ -162,7 +162,7 @@ To do so, go to the **Business Object Entities Fields** tab to the **_Trip_** en
    
    <img alt="Generated Objects" src="images/ex02-ide-action-close-message.png" width="30%"> 
 
-13. Refresh the Service Binding. You should now see the entities of your generated RAP business object in the service binding editor.
+13. Refresh the Service Binding (e.g. press **F5**). You should now see the entities of your generated RAP business object in the service binding editor.
 
 > ### ℹ️ Workaround IDE action.   
 > 
