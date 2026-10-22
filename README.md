@@ -71,14 +71,14 @@ In the exercises we will use them one by one so that you can see how they work a
 | Exercises | -- |
 | ------------- | -- |
 | [Getting Started](exercises/ex00/README.md)| -- | 
-| [Exercise 1: Test a preconfigured ISLM scenario](exercises/ex01/README.md) | -- | 
-| [Exercise 2: Generate a RAP Business Object for managing trip expenses](exercises/ex02/README.md)| -- |
-| [Exercise 3: Basic adaptations of the Generated UI Service](exercises/ex03/README.md)| -- |
-| [Exercise 4: Add a determination for trip classification](exercises/ex04/README.md)| -- |
-| [Exercise 5: Enable the up- and download of files in your Fiori Elements application](exercises/ex05/README.md)| -- |
-| [Exercise 6: Add a determination to extract data from receipts](exercises/ex06/README.md)| -- |
-| [Exercise 7: Make use of grounding capabilities by using a travel policy document](exercises/ex07/README.md) | -- | 
-| [Exercise 8: Add an action to check whether your trip is compliant](exercises/ex08/README.md) | -- | 
+| [Exercise 1: Test a Preconfigured ISLM Scenario](exercises/ex01/README.md) | -- | 
+| [Exercise 2: Generate a RAP Business Object for Managing Trip Expenses](exercises/ex02/README.md)| -- |
+| [Exercise 3: Basic Adaptations of the Generated UI Service](exercises/ex03/README.md)| -- |
+| [Exercise 4: Use the ABAP AI SDK in a Determination to Set the Category of a Trip](exercises/ex04/README.md)| -- |
+| [Exercise 5: Enable the Upload and Download of Files in Your Fiori Elements Application](exercises/ex05/README.md)| -- |
+| [Exercise 6: Add a Determination to Extract Data from Receipts](exercises/ex06/README.md)| -- |
+| [Exercise 7: Make Use of Grounding Capabilities by Using a Travel Policy Document](exercises/ex07/README.md) | -- | 
+| [Exercise 8: Add an Action to Check Whether Your Trip Is Compliant](exercises/ex08/README.md) | -- | 
 
 ## Known Issues
 
