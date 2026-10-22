@@ -38,7 +38,7 @@ Use your seat place number (either three-digit **`###`** at **TechEd Berlin** or
 
 | Event | Value |
 |---|---|
-| SAP Teched 2026 in Berlin | Use the three-digit seat number **`0##`** as your unique suffix. <br> User A **`001`** up **`040`**  <br> User B **`041`** up **`080`** --> Session repeat|  
+| SAP Teched 2026 in Berlin | Use the three-digit seat number **`0##`** as your unique suffix. <br> Session A **`001`** up **`040`**  <br> Session B **`041`** up **`080`** --> Session repeat|  
 | ASUG TechConnect 2026 in Fort Worth | Add a leading **`1`** to your two-digit seat number **`##`** to determine your unique suffix **`1##`**  |
 | | |
 
