@@ -43,7 +43,7 @@ Using the built in Fiori App **Intelligent Scenarios** you can have a look at th
 
 The Intelligent Scenarios App can either be started via the Fiori Launchpad or using transaction code **F4469** from within SAPGUI. The app not only offers read access but also the option to create your own ISLM scenarios.   
 
-We will start by investigating the custom ISLM scenarios that have been pre-created for your convenience. In the last (optional) exercise you can create your own ISLM scenario and test it with classes and the RAP BO that you are going to develop during this hands-on session.
+We will start by investigating the custom ISLM scenarios that have been pre-created for your convenience.
 
 <details>
   <summary>🔵 Click to expand!</summary>
