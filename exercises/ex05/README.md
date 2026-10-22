@@ -137,7 +137,7 @@ When the table already contains data, the user will get the error message `Struc
 
    <img src="images/ex05-bdef-error-quick-fix.png" alt="quick fix to create draft table" width="50%"> 
 
-4. Save and activate your changes
+4. Save ![save icon](../../images/adt_save.png) (**Ctrl+S**) and activate ![activate_icon](../../images/adt_activate.png) (**Ctrl+F3**) the changes.
 
 5. The new draft table should look as follows:
 
