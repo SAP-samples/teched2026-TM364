@@ -13,8 +13,9 @@ From Classical Machine Learning and Tabular AI to Generative AI, ISLM brings AI 
 More information can be found in the following links: 
 
 - [Developing Your Own AI-Enabled Applications Documentation](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/developing-your-own-ai-enabled-applications) 
-- [New blog post about ISLM availability matrix](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/intelligent-scenario-lifecycle-management-islm-availability-matrix-across/ba-p/14499712)  
-- [ISLM webinar](https://www.youtube.com/live/MRZHKt5lywA)
+- [New blog post about ISLM availability matrix](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/intelligent-scenario-lifecycle-management-islm-availability-matrix-across/ba-p/14499712)
+- [Devtoberfest - ABAP AI SDK powered by ISLM](https://www.youtube.com/live/y36Ans6hSyM)
+- [Devtoberfest - Bring AI into Your ABAP Applications with ISLM](https://www.youtube.com/live/MRZHKt5lywA)
 - [ISLM overview slides](https://d.dam.sap.com/a/Lk7iU2c/ISLM_Devtoberfest_2026.pdf?rc=10&inline=true&doi=SAP1355561)
 
 ## Session scenario and focus
