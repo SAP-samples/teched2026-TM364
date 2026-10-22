@@ -262,12 +262,12 @@ The result of the check will update the `Status` field and the full response of 
      Title;
    </pre>
 
-   The result should look like this:
+4. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
+
+5. Refresh the application. The result should look like this:
    
    <!-- ![Travel CDS Metadata Extension](images/b15.png) -->
    <img src="images/ex08-app-with-check-compliance-button.png" alt="Travel CDS Metadata Extension" width="60%">     
-   
-4. Save ![save icon](../../images/adt_save.png) and activate ![activate icon](../../images/adt_activate.png) the changes.
 
 </details>
 
