@@ -184,7 +184,7 @@ If the **IDE action** dialogue does not appear, please make sure, that you have 
 
    <img alt="Preview" src="images/ex02-start-preview.png" width="75%"> 
 
-2. Press **Go** to load the data in the app.
+2. Please note, if you press **Go** you won't see any data at this point in time. You will manually create entries in the following exercises.
 
    > ℹ️ **The list should be empty at this point since no trip data has been created yet.**
 
