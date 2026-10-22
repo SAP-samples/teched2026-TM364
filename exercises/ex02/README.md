@@ -116,7 +116,7 @@ To do so, go to the **Business Object Entities Fields** tab to the **_Trip_** en
 
 8. Click **Next >**, create or choose a transport request if required, click **Next >** and confirm with **Finish** to generate all artefacts.
 
-9. After a few seconds, click **Open** in the appearing dialog to open the generated object **`ZUI_TRIP_O4###`** in the service binding editor.
+9. After a few seconds (it typically takes 20-40 seconds), click **Open** in the appearing dialog to open the generated object **`ZUI_TRIP_O4###`** in the service binding editor.
 
 
    <img alt="open generated service binding" src="images/ex02-open-generated-service-binding.png" width="60%">   
