@@ -25,7 +25,7 @@ You will again use the Entity Manipulation Language (EML) to implement the trans
 ## Exercise 6.1: Define the Determination `setExtractedData`
 [^Top of page](#)
 
-You will define the determination **`setExtractedData`** in the behavior definition of the _Expense_ entity. This determination will be used to set several values of the _Expense_ entity once a receipt has been uploaded and once the data extraction using the ABAP AI SDK has taken place.   
+You will define the determination **`setExtractedData`** in the behavior definition of the **_Expense_** entity. This determination will be used to set several values of the _Expense_ entity once a receipt has been uploaded and once the data extraction using the ABAP AI SDK has taken place.   
 
 
  <details>
