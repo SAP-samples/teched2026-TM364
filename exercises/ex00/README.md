@@ -46,7 +46,7 @@ The use of the unique suffix throughout all exercises will make your development
  
 For example:
 - Seat number **`039`** for SAP Teched 2026 in Berlin means suffix **`039`**
-- Seat number **`39`** for ASUG TechConnect 2026 in Fort Worth means suffix **`146`**
+- Seat number **`39`** for ASUG TechConnect 2026 in Fort Worth means suffix **`139`**
 
 ## Exercise 0.2: Create an _ABAP Project_ in ADT
 
