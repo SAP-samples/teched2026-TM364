@@ -87,7 +87,7 @@ This way, the field was added to all relevant repository objects (base view, pro
 
 Before activating the OData Stream feature we therefore need to change the datatype of the fields in the active and the draft table that store the expense data.
 
-1. Navigate to the table `zexpense###` in the project explorer.
+1. Navigate to the Database Table `zexpense###` in the project explorer.
 
 <img src="images/ex05-change-field-in-table.png" alt="Upload button" width="50%">  
 
