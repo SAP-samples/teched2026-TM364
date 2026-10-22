@@ -289,7 +289,7 @@ The receipts and the email texts can be [downloaded from here](../../receipts/) 
 
 
 1. Create a new _Trip_ entry.
-2. Use the email for one of the provided sample scenarios (EU10, EO20, ...) and let ISLM fill the trip details.
+2. Use the email for one of the provided sample scenarios (EU01, EU02, ...) and let ISLM fill the trip details.
 3. Upload both receipts for _Taxi_ and _Hotel_ for that scenario.   
 4. Navigate to the object page, and click on the new action button _**Check Compliance**_. 
    
