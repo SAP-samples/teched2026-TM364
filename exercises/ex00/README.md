@@ -8,8 +8,8 @@ In this exercise, you will use a unique three digit suffix **`###`**  for your d
 
 ## Exercises
 
-- [0.1 - Choose Your Unique Suffix](#exercise-01-choose-your-unique-suffix)
-- [0.2 - Create an _ABAP Project_ in ADT](#exercise-02-create-an-abap-cloud-project-in-adt)
+- [0.1 - Choose Your Unique Suffix](#exercise-01-your-assigned-unique-suffix)
+- [0.2 - Create an _ABAP Project_ in ADT](#exercise-02-create-an-abap-project-in-adt)
 - [Summary & Next Exercise](#summary--next-exercise)
 
 > ℹ️ **Reminder**: Don't forget to replace all occurrences of the placeholder **`###`** with your group ID in the exercise steps below.
