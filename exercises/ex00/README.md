@@ -55,17 +55,19 @@ Start the **ABAP Development Tools for Eclipse** and create an **ABAP Project** 
 <details>
   <summary>🔵 Click to expand!</summary>
    
-1. Start ADT and open the **ABAP** perspective as shown in the screenshot below if not yet done.
+1. Start **SAP Logon** and check if the entry **HE4** exists. 
+ 
+2. Now, start ADT and open the **ABAP** perspective as shown in the screenshot below if not yet done.
 
    ![Open ABAP Perspective](images/abap_perspective.png)
 
-2. From the **File** menu select **New** > **ABAP Project**
+3. From the **File** menu select **New** > **ABAP Project**
 
-3. Click on the entry **HE4**
+4. Click on the entry **HE4**
 
    <img src="images/ex00-select-he4.png" alt="new system connection" width="50%"> 
 
-4. In the **Connection Settings** dialogue leave the values unchanged and press **> Next**:  
+5. In the **Connection Settings** dialogue leave the values unchanged and press **> Next**:  
 
    | Field | Value |
    |---|---|
@@ -78,7 +80,7 @@ Start the **ABAP Development Tools for Eclipse** and create an **ABAP Project** 
     
    <img src="images/ex00-select-he4-connection-settings.png" alt="Connection settings" width="50%"> 
 
-5. In the log on to system dialogue enter the following values. Do **NOT** press _Finish_ but press _> Next_ instead.
+6. In the log on to system dialogue enter the following values. Do **NOT** press _Finish_ but press _> Next_ instead.
 
    | Field | Value |
    |---|---|
