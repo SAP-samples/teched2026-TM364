@@ -56,6 +56,8 @@ Start the **ABAP Development Tools for Eclipse** and create an **ABAP Project** 
   <summary>🔵 Click to expand!</summary>
    
 1. Start **SAP Logon** and check if the entry **HE4** exists. 
+   
+   <img src="images/saplogon_icon.png" alt="new system connection" width="10%"> 
  
 2. Now, start ADT and open the **ABAP** perspective as shown in the screenshot below if not yet done.
 
