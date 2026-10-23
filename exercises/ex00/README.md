@@ -144,19 +144,6 @@ later for codejams replace step 3., 4. and 5. by the following
 
 </details>
 
-
-
-
-## Summary & Next Exercise
-[^Top of page](#)
-
-Now that you've...
-- connect to the ABAP environment,
-- chosen your unique suffix **`###`**, and
-- verified your development environment is ready,
-
-you can continue with the next exercise – **[Exercise 1: Test a preconfigured ISLM scenario](../ex01/README.md)**.
-
 ---
 
 
@@ -216,9 +203,12 @@ When working in the ABAP Development Tools for Eclipse, you can display the full
 ## Summary & Next Exercise
 [^Top of page](#)
 
-Now you've familiarized yourself with the solutions and your exercise package `ZTM364_###`, where `###` is your personal suffix.
+Now that you've...
+- connect to the ABAP environment,
+- chosen your unique suffix **`###`**, and
+- verified your development environment is ready,
 
-Continue with the next exercise — **[Exercise 1: Test a preconfigured ISLM scenario](../ex01/README.md)**.
+you can continue with the next exercise – **[Exercise 1: Test a preconfigured ISLM scenario](../ex01/README.md)**.
 
 ---
 
