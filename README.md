@@ -18,7 +18,7 @@ More information can be found in the following links:
 - [Devtoberfest - Bring AI into Your ABAP Applications with ISLM](https://www.youtube.com/live/MRZHKt5lywA)
 - [ISLM overview slides](https://d.dam.sap.com/a/Lk7iU2c/ISLM_Devtoberfest_2026.pdf?rc=10&inline=true&doi=SAP1355561)
 
-## Session scenario and focus
+## Session scenario and focus 
 
 The focus of this session is to show how LLMs (deployed on SAP AI Core) can be leveraged from within your ABAP Code using the ABAP AI SDK and thereby making your RAP business object "smarter".
 
