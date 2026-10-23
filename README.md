@@ -95,6 +95,7 @@ For additional support, [ask a question in SAP Community](https://answers.sap.co
 
 This hands-on session used pre-configured ISLM scenarios for your convenience so that you could concentrate on the ABAP development. When you are interested to build your own ISLM scenario and if you want to dive deeper into topic of the _Orchestration Service_ and the _Generative AI Hub_, please check out the following ressources:   
 
+- [ABAP Cloud Learning Map](https://community.sap.com/t5/technology-blog-posts-by-sap/abap-cloud-learning-map/ba-p/14338279)
 - [Implement a Simple Custom ABAP AI Scenario in Your SAP S/4HANA System](https://developers.sap.com/tutorials/abap-islm-simple-genai-scenario)   
 - [Implement a Custom ABAP AI Scenario Consuming SAP AI Core Orchestration Service in Your SAP S/4HANA System](https://developers.sap.com/tutorials/abap-islm-orchestration-service-consumption)   
 - [ISLM Hands-On](https://sap-clm-sl.github.io/ISLM/)   
