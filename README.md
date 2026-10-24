@@ -10,14 +10,6 @@ Intelligent Scenario Lifecycle Management (ISLM) is built to address these chall
 
 From Classical Machine Learning and Tabular AI to Generative AI, ISLM brings AI scenarios under one framework. Together with the ABAP AI SDK, powered by ISLM, it enables low-code integration of generative AI into ABAP applications, including access to large language models through the Generative AI Hub in SAP AI Core. The result is lower development effort, more consistent operations, and AI closer to business processes.
 
-More information can be found in the following links: 
-
-- [Developing Your Own AI-Enabled Applications Documentation](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/developing-your-own-ai-enabled-applications) 
-- [New blog post about ISLM availability matrix](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/intelligent-scenario-lifecycle-management-islm-availability-matrix-across/ba-p/14499712)
-- [Devtoberfest - ABAP AI SDK powered by ISLM](https://www.youtube.com/live/y36Ans6hSyM)
-- [Devtoberfest - Bring AI into Your ABAP Applications with ISLM](https://www.youtube.com/live/MRZHKt5lywA)
-- [ISLM overview slides](https://d.dam.sap.com/a/Lk7iU2c/ISLM_Devtoberfest_2026.pdf?rc=10&inline=true&doi=SAP1355561)
-
 ## Session scenario and focus 
 
 The focus of this session is to show how LLMs (deployed on SAP AI Core) can be leveraged from within your ABAP Code using the ABAP AI SDK and thereby making your RAP business object "smarter".
@@ -95,10 +87,26 @@ For additional support, [ask a question in SAP Community](https://answers.sap.co
 
 This hands-on session used pre-configured ISLM scenarios for your convenience so that you could concentrate on the ABAP development. When you are interested to build your own ISLM scenario and if you want to dive deeper into topic of the _Orchestration Service_ and the _Generative AI Hub_, please check out the following ressources:   
 
+### ABAP Cloud Learning Map
+
 - [ABAP Cloud Learning Map](https://community.sap.com/t5/technology-blog-posts-by-sap/abap-cloud-learning-map/ba-p/14338279)
+
+### Devtoberfest Sessions
+
+- [How to implement business AI capabilities in ABAP Cloud](https://www.youtube.com/live/2alpLnbfpuQ)
+- [ABAP AI SDK powered by ISLM](https://www.youtube.com/live/y36Ans6hSyM)
+- [Bring AI into Your ABAP Applications with ISLM](https://www.youtube.com/live/MRZHKt5lywA)
+
+### ISLM Tutorials
+
 - [Implement a Simple Custom ABAP AI Scenario in Your SAP S/4HANA System](https://developers.sap.com/tutorials/abap-islm-simple-genai-scenario)   
 - [Implement a Custom ABAP AI Scenario Consuming SAP AI Core Orchestration Service in Your SAP S/4HANA System](https://developers.sap.com/tutorials/abap-islm-orchestration-service-consumption)   
 - [ISLM Hands-On](https://sap-clm-sl.github.io/ISLM/)   
+
+### SAP Help Portal and Blog Posts
+
+- [Developing Your Own AI-Enabled Applications Documentation](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/developing-your-own-ai-enabled-applications) 
+- [New blog post about ISLM availability matrix](https://community.sap.com/t5/enterprise-resource-planning-blog-posts-by-sap/intelligent-scenario-lifecycle-management-islm-availability-matrix-across/ba-p/14499712)
 - [Utilization Of The Orchestration Service Of The Generative AI Hub](https://help.sap.com/docs/abap-ai/generative-ai-in-abap-cloud/utilization-of-orchestration-service-of-generative-ai-hub)
 - [Blog Post: Integration with the Orchestration Service](https://community.sap.com/t5/technology-blog-posts-by-sap/scaling-generative-ai-in-sap-s-4hana-enterprise-ready-innovation-with-islm/ba-p/14332507)
 
