@@ -8,6 +8,12 @@ The result of the check will update the `Status` field and the full response of 
 
 <img src="images/ex08-app-with-check-compliance-button.png" alt="CDS BO Behavior Definition" width="60%">
 
+## Exercises
+
+- [8.1 - Add the Instance-Bound Action - checkCompliance](#exercise-81-add-the-instance-bound-action---checkcompliance)
+- [8.2 - Preview and test the enhanced Fiori elements App](#exercise-82-preview-and-test-the-enhanced-fiori-elements-app)
+- [Summary](#summary)
+
 ## Exercise 8.1: Add the Instance-Bound Action - checkCompliance
 
 > Start with defining the action `checkCompliance` in the base behavior definition **`ZR_TRIP###`**.
@@ -271,7 +277,7 @@ The result of the check will update the `Status` field and the full response of 
 
 </details>
 
-## Preview and test the enhanced Fiori elements App.
+## Exercise 8.2: Preview and test the enhanced Fiori elements App.
 
 For your convienience we have provided some sample data for _hotel receipts_, _taxi receipts_ and and email to provide the trip details and expenses. The naming e.g. **EU10** indicates data sets for one trip.
 
@@ -299,7 +305,7 @@ The LLM will probably complain that it can't check whether a pre-approval of the
         
 If you wish, you can also define the button on the list report page in the CDS metadata extension, activate the changes, and re-test the app.
 
-## Summary & Next Exercise
+## Summary
 [^Top of page](#)
 
 Now that you've...

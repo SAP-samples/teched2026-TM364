@@ -152,6 +152,11 @@ When the table already contains data, the user will get the error message `Struc
 
 2. Create a new _Trip_ instance and provide a description and some trip details. 
 
+> For your convienience we have provided some sample data for _hotel receipts_ and _taxi receipts_ to provide samles for expenses. The naming e.g. **EU10** indicates data sets for one trip.
+
+> The receipts can be [downloaded from here](../../receipts/) (Tip: open in a new tab or browser window).
+
+
 3. Click on **Create** on the **Expense** tab to create a new expense.
 
    Here you will see a new button that allows you to start the upload of a picture from your frontend PC.
