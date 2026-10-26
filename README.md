@@ -85,7 +85,7 @@ For additional support, [ask a question in SAP Community](https://answers.sap.co
 
 ## Further Information
 
-This hands-on session used pre-configured ISLM scenarios for your convenience so that you could concentrate on the ABAP development. When you are interested to build your own ISLM scenario and if you want to dive deeper into topic of the _Orchestration Service_ and the _Generative AI Hub_, please check out the following ressources:   
+This hands-on session used pre-configured ISLM scenarios for your convenience so that you could concentrate on the ABAP development. When you are interested to build your own ISLM scenario and if you want to dive deeper into topic of the _Orchestration Service_ and the _Generative AI Hub_, please check out the following resources:   
 
 ### ABAP Cloud Learning Map
 

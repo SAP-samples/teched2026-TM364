@@ -412,12 +412,12 @@ annotate view ZC_EXPENSE### with
 ## Exercise 3.3: Make the Fields `TripID` and `IslmScenario` Mandatory for New Entities
 [^Top of page](#)
 
-1. Open your behavior definition ![bdef icon](../../images/adt_bdef.png)**`ZR_TRIP###`** and set the fields fields `TripID` and `IslmScenario` to mandatory when creating a new trip.   
+1. Open your behavior definition ![bdef icon](../../images/adt_bdef.png)**`ZR_TRIP###`** and set the fields `TripID` and `IslmScenario` to mandatory when creating a new trip.   
 
  <details>
   <summary>🔵 Click to expand!</summary>
 
-Go to the behavior definiton of the _Trip_ BO entity ![bdef icon](../../images/adt_bdef.png)**`ZR_TRIP###`** and insert the following statement right before the statement **`create;`** as shown on the screenshot below: 
+Go to the behavior definition of the _Trip_ BO entity ![bdef icon](../../images/adt_bdef.png)**`ZR_TRIP###`** and insert the following statement right before the statement **`create;`** as shown on the screenshot below: 
 
    ```ABAP 
    field ( mandatory : create, readonly : update ) TripID;

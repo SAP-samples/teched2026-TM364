@@ -204,7 +204,7 @@ When working in the ABAP Development Tools for Eclipse, you can display the full
 [^Top of page](#)
 
 Now that you've...
-- connect to the ABAP environment,
+- connected to the ABAP environment,
 - chosen your unique suffix **`###`**, and
 - verified your development environment is ready,
 

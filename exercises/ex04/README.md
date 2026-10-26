@@ -207,11 +207,11 @@ You will now implement the logic of the defined determination in the behavior po
 
 </details>
 
-> Excercise 4.3 and 4.4 are optional. They are recommended since the determination needs a name of an ISM scenario. Currently the implementation of the determination does nothing when no ISLM scneario is provided, which may confuce end users.
+> Exercise 4.3 and 4.4 are optional. They are recommended since the determination needs a name of an ISLM scenario. Currently the implementation of the determination does nothing when no ISLM scenario is provided, which may confuse end users.
 
 ## Exercise 4.3: (Optional) Define the Validation `checkIslmScenario`
 
-Define the validation `checkIslmScenario` in the behavior definition of the _Trip_ entity. This validation will be used to make sure that a valid ISLM scneario has been selected and that the field is not empty.
+Define the validation `checkIslmScenario` in the behavior definition of the _Trip_ entity. This validation will be used to make sure that a valid ISLM scenario has been selected and that the field is not empty.
 
 <details>
   <summary>🔵 Click to expand!</summary>

@@ -226,7 +226,7 @@ CLASS ztm364_cl_islm_trip_type_### IMPLEMENTATION.
                   |Categories:  SAP internal event\r\n| &
                   |\r\n| &
                   |Topics: \r\n| &
-                  |- Dicuss prices for next offer\r\n| &
+                  |- Discuss prices for next offer\r\n| &
                   |- List of customer tickets\r\n| &
                   |- Next steps|.
 
@@ -429,7 +429,7 @@ ENDCLASS.
                      |Categories:  SAP internal event\r\n| &
                      |\r\n| &
                      |Topics: \r\n| &
-                     |- Dicuss prices for next offer\r\n| &
+                     |- Discuss prices for next offer\r\n| &
                      |- List of customer tickets\r\n| &
                      |- Next steps|.
 

@@ -72,7 +72,7 @@
 
  1. Now adapt the projection view **`ZC_Expense###`**.  
 
-    Here you have to comment out the annotation **`@Metadata.ignorePropagatedAnnotations: true`** because otherwise the anntoations set on the base layer will not become active in your SAP Fiori Elements UI.
+    Here you have to comment out the annotation **`@Metadata.ignorePropagatedAnnotations: true`** because otherwise the annotations set on the base layer will not become active in your SAP Fiori Elements UI.
   
     <img src="images/ex05-comment-out-ignorePropagatedAnnotations.png" alt="Remove_Metadata_ignorePropagatedAnnotations" width="100%">  
 
@@ -152,7 +152,7 @@ When the table already contains data, the user will get the error message `Struc
 
 2. Create a new _Trip_ instance and provide a description and some trip details. 
 
-> For your convienience we have provided some sample data for _hotel receipts_ and _taxi receipts_ to provide samles for expenses. The naming e.g. **EU10** indicates data sets for one trip.
+> For your convenience we have provided some sample data for _hotel receipts_ and _taxi receipts_ to provide samples for expenses. The naming e.g. **EU10** indicates data sets for one trip.
 
 > The receipts can be [downloaded from here](../../receipts/) (Tip: open in a new tab or browser window).
 
@@ -167,7 +167,7 @@ When the table already contains data, the user will get the error message `Struc
 
 4. As a result, the Expense entry contains a link that would allow you to display the picture in a separate tab.
 
-   <img src="images/ex05-uloaded-receipt.png" alt="Upload button" width="50%">  
+   <img src="images/ex05-uploaded-receipt.png" alt="Upload button" width="50%">  
 
 
 

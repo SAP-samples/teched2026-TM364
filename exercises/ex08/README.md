@@ -279,7 +279,7 @@ The result of the check will update the `Status` field and the full response of 
 
 ## Exercise 8.2: Preview and test the enhanced Fiori elements App.
 
-For your convienience we have provided some sample data for _hotel receipts_, _taxi receipts_ and and email to provide the trip details and expenses. The naming e.g. **EU10** indicates data sets for one trip.
+For your convenience we have provided some sample data for _hotel receipts_, _taxi receipts_ and an email to provide the trip details and expenses. The naming e.g. **EU10** indicates data sets for one trip.
 
 The receipts and the email texts can be [downloaded from here](../../receipts/) (Tip: open in a new tab or browser window).
 
