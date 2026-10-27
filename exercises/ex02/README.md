@@ -27,30 +27,17 @@ For both entities you will use structures as templates: `ztm364_trip_template` f
 
    <img alt="RAP Generator" src="images/ex02-rap-from-scratch-generator-010.png" width="70%">  
 
-2. You will get a pop-up with the title **Logon for Use Joule Side-by-Side for _Your ADT Project Name_"**.   
-   Select **Open Logon Page in Browser**. 
-
-3. Another window for the IAS for **Joule for developers, ABAP AI Capabilities** will open. Here you have to enter the following credentials and the press **Continue**.
-
-   | Field | Value |
-   |---|---|
-   | Email or User Name | **`tm364-###@education.cloud.sap`** |
-   | Password | **`xxxx`** (provided by the instructors) |
-
-   > It might happen that the authentication does not work when you enter the credentials for the first time. In this case just enter them once again.
-
-   <img alt="Authentication - Joule for developers" src="images/ex02-login-j4d-ias.png" width="30%"> 
 
 
-4. Now you are able to select the Generator. Select the **OData UI Service from Scratch**, and press **Next**.
+2. Now you are able to select the Generator. Select the **OData UI Service from Scratch**, and press **Next**.
 
    <img alt="Review Artefacts" src="images/ex02-rap-from-scratch-generator-020.png" width="50%">
 
-5. Now go ahead and configure the _Trip_ BO in the creation dialog. 
+3. Now go ahead and configure the _Trip_ BO in the creation dialog. 
 
-2. In the **Enter Package** screen just press **Next >**.
+4. In the **Enter Package** screen just press **Next >**.
 
-3. On the **Configure Generator** screen, enter the following values on the **Service Configuration** tab:
+5. On the **Configure Generator** screen, enter the following values on the **Service Configuration** tab:
 
    | Field | Value |
    |---|---|
@@ -59,7 +46,7 @@ For both entities you will use structures as templates: `ztm364_trip_template` f
 
    <img alt="Review Artefacts" src="images/ex02-rap-from-scratch-generator-040.png" width="60%"> 
 
-4. Select the entry **Business Object Entities** (1) in the _Configuration of Service Artifacts_ section and then press the **Add** (2) button.
+6. Select the entry **Business Object Entities** (1) in the _Configuration of Service Artifacts_ section and then press the **Add** (2) button.
 
    In the **Add Business Entities** dialog, enter the following values to add the BO root entity **`Trip`** and configure it as shown in the table below (3). Press **Add** (4).
        
@@ -70,7 +57,7 @@ For both entities you will use structures as templates: `ztm364_trip_template` f
 
      <img alt="Review Artefacts" src="images/ex02-add-business-entities-010.png" width="60%"> 
 
-5. The newly created entity **Trip** (1) is automatically selected. Simply press the **Add** (2) button again to add the BO child entity **`Expense`** and configure it as follows (3) and press **Add** (4).
+7. The newly created entity **Trip** (1) is automatically selected. Simply press the **Add** (2) button again to add the BO child entity **`Expense`** and configure it as follows (3) and press **Add** (4).
 
      | Field | Value |
      |---|---|
@@ -110,13 +97,13 @@ To do so, go to the **Business Object Entities Fields** tab to the **_Trip_** en
 
 -->
 
-7. Click **Next >** and review the artefacts to be generated.
+8. Click **Next >** and review the artefacts to be generated.
 
    <img alt="Review Artefacts" src="images/ex02-review-list-of-artefacts.png" width="60%"> 
 
-8. Click **Next >**, create or choose a transport request if required, click **Next >** and confirm with **Finish** to generate all artefacts.
+9. Click **Next >**, create or choose a transport request if required, click **Next >** and confirm with **Finish** to generate all artefacts.
 
-9. After a few seconds (it typically takes 20-40 seconds), click **Open** in the appearing dialog to open the generated object **`ZUI_TRIP_O4###`** in the service binding editor.
+10. After a few seconds (it typically takes 20-40 seconds), click **Open** in the appearing dialog to open the generated object **`ZUI_TRIP_O4###`** in the service binding editor.
 
 
    <img alt="open generated service binding" src="images/ex02-open-generated-service-binding.png" width="60%">   
@@ -139,7 +126,7 @@ To do so, go to the **Business Object Entities Fields** tab to the **_Trip_** en
   <summary>🔵 Click to expand!</summary>
 -->
 
-10. The activated service binding ![](../images/adt_srvb.png)`ZUI_TRIP_O4###` is opened.    
+11. The activated service binding ![](../images/adt_srvb.png)`ZUI_TRIP_O4###` is opened.    
 
     - ⚠️ Do **NOT press the Publish button** since this will lead to an error message.   
 
@@ -154,15 +141,15 @@ To do so, go to the **Business Object Entities Fields** tab to the **_Trip_** en
     > If you press the **Publish** button nevertheless 😉, you will get several error messages. The service will not be published. Instead you have to publish it using a custom IDE action as described above.
 
 
-11. Select the IDE action **Publish locally**
+12. Select the IDE action **Publish locally**
 
     <img alt="Generated Objects" src="images/ex02-ide-action-run.png" width="30%"> 
 
-12. Close the success message.
+13. Close the success message.
    
    <img alt="Generated Objects" src="images/ex02-ide-action-close-message.png" width="30%"> 
 
-13. Refresh the Service Binding (e.g. press **F5**). You should now see the entities of your generated RAP business object in the service binding editor.
+14. Refresh the Service Binding (e.g. press **F5**). You should now see the entities of your generated RAP business object in the service binding editor.
 
 > ### ℹ️ Workaround IDE action.   
 > 
