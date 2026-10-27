@@ -142,6 +142,21 @@ later for codejams replace step 3., 4. and 5. by the following
 
    <img src="images/ex00-project-in-adt.png" alt="ADT project name" width="50%"> 
 
+ 8. You will get a pop-up with the title **Logon for Use Joule Side-by-Side for _Your ADT Project Name_"**.   
+   Select **Open Logon Page in Browser**. 
+
+ 9. Another window for the IAS for **Joule for developers, ABAP AI Capabilities** will open. Here you have to enter the following credentials and the press **Continue**.
+
+   | Field | Value |
+   |---|---|
+   | Email or User Name | **`tm364-###@education.cloud.sap`** |
+   | Password | **`xxxx`** (provided by the instructors) |
+
+   > It might happen that the authentication does not work when you enter the credentials for the first time. In this case just enter them once again.
+
+   <img alt="Authentication - Joule for developers" src="images/ex02-login-j4d-ias.png" width="30%"> 
+
+
 </details>
 
 ---
