@@ -66,12 +66,14 @@ For both entities you will use structures as templates: `ztm364_trip_template` f
      | Cardinality* | **`To Many`** |
      | Template Name | **`ztm364_expenses_template`** |
 
+   ⚠️ Please recheck that you use the correct template for the respective entities. In particular, don't use the trip template for the expense template. 
+
    <img alt="Review Artefacts" src="images/ex02-add-business-entities-020.png" width="60%"> 
 
 
 <!--
 
-6. We now want to adapt the field **`TripID`** the **_Trip_** entity so that it will be annotated as a sematic key.  
+6. We now want to adapt the field **`TripID`** the **_Trip_** entity so that it will be annotated as a semantic key.  
 To do so, go to the **Business Object Entities Fields** tab to the **_Trip_** entity (1) to adapt the settings for the field **`TripID`** (2) using the **Edit...** button (3):
    
    Change the field **`TripID`** of the _Trip_ entity such that it will be annotated as a semantic key field - step (4). If required, move it at the top of the field list using the **Up** button. Click OK when finished.
