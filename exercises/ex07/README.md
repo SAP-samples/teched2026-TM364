@@ -306,12 +306,13 @@ CLASS ztm364_cl_islm_trip_compl_### IMPLEMENTATION.
 
    So you have to retrieve a valid value for **TripId** from your RAP BO which contains expenses.
 
-2. Enter a suitable value for **TripID** and save ![save icon](../../images/adt_save.png) (**Ctrl+S**) and activate ![activate icon](../../images/adt_activate.png) (**Ctrl+F3**) the changes.      
+2. Retrieve an existing **TripID** from your Fiori Elements Application and enter it in line 34 in the main method.
+3. Save ![save icon](../../images/adt_save.png) (**Ctrl+S**) and activate ![activate icon](../../images/adt_activate.png) (**Ctrl+F3**) the changes.      
    
    <!-- For this run your CDS base view entity **`zr_trip###`** by putting the cursor in the source code on it and pressing **F8**. This opens the data preview. Copy the UUID of the instance you want to use into the class and save ![save icon](../../images/adt_save.png) (**Ctrl+S**) and activate ![activate icon](../../images/adt_activate.png) (**Ctrl+F3**) the change.
    -->
 
-3. Execute the class as **Console App** by pressing **F9**.
+4. Execute the class as **Console App** by pressing **F9**.
 
      You should receive a response like the following:
 
